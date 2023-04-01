@@ -1,17 +1,12 @@
 .App {
+
   text-align: center;
+  font-family: cursive;
+  font-style: normal;
+  font-weight: normal;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -23,16 +18,107 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Svg
+{
+  text-align: center;
+}
+svg
+{
+  width: 100%;
+  height: 600px;
+  max-width: 620px;
+  padding-bottom: 50px;
+  padding-top: 0px;
+}
+.contact-as
+{
+  width: 32px;
+  height: 80px;
+  margin-top: 90px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 5px;
+}
+.link
+{
+  color: #9547e9;
+  transition:all .2s ease-in-out;
+}
+.link:hover
+{
+  color: #9900FA;
+}
+.contaner
+{
+  height: 300px;
+  margin: 30px;
+}
+.color-div
+{
+  height: 33.33333%;
+  width: 100%;
+  padding: 32px;
+  font-size: 28px;
+  transition:all .2s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.color-div:hover
+{
+  text-shadow: 0px 0px 10px;
+}
+.color-div-top
+{
+  border-radius: 20px 20px 0px 0px;
+}
+.color-div-down
+{
+  border-radius: 0px 0px 20px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel-indicators [data-bs-target]
+{
+  width: 20px;
+  margin: 30px;
+  height: 20px;
+  border-radius: 15px;
+  border-bottom: 0px ;
+  border-top: 0px;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #9900FA;
+}
+.header{
+  text-align: left;
+  padding: 30px;
+  padding-bottom: 0px;
+  color : #9900FA;
+  text-shadow: 2px 2px 5px #CEA2FD;
+}
+.btn-outline-dark {
+  --bs-btn-color: #9900FA;
+  --bs-btn-border-color: #9900FA;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #9900FA;
+  --bs-btn-hover-border-color: #9900FA;
+  --bs-btn-focus-shadow-rgb: 33,37,41;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #9900FA;
+  --bs-btn-active-border-color: #9900FA;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #9900FA;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #9900FA;
+  --bs-gradient: none;
+}
+.btn
+{
+  padding: 15px;
+  border-radius: 35px;
+  margin: 0px 40px 20px;
+  --bs-btn-font-size: 22px;
+}
+.row>* {
+  padding-right: 0px;
+  padding-left: 0px;
+
 }
